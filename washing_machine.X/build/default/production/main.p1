@@ -1,0 +1,1793 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"17 ./clcd.h
+[; ;./clcd.h: 17: void init_clcd(void);
+[v _init_clcd `(v ~T0 @X0 0 ef ]
+"27 ./digitalkeypad.h
+[; ;./digitalkeypad.h: 27: void init_digital_keypad(void);
+[v _init_digital_keypad `(v ~T0 @X0 0 ef ]
+"10 ./timer.h
+[; ;./timer.h: 10: void init_timer2(void);
+[v _init_timer2 `(v ~T0 @X0 0 ef ]
+"2965 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2965: extern volatile __bit TRISC2 __attribute__((address(0x43A)));
+[v _TRISC2 `Vb ~T0 @X0 0 e@1082 ]
+"2962
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2962: extern volatile __bit TRISC1 __attribute__((address(0x439)));
+[v _TRISC1 `Vb ~T0 @X0 0 e@1081 ]
+"2629
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2629: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"2569
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2569: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+[p mainexit ]
+"16 ./clcd.h
+[; ;./clcd.h: 16: void clcd_print(const char *str,unsigned char addr);
+[v _clcd_print `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"26 ./digitalkeypad.h
+[; ;./digitalkeypad.h: 26: unsigned char read_digital_keypad(unsigned char mode);
+[v _read_digital_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"39 ./main.h
+[; ;./main.h: 39: void clear_screen(void);
+[v _clear_screen `(v ~T0 @X0 0 ef ]
+"38
+[; ;./main.h: 38: void power_on_screen(void);
+[v _power_on_screen `(v ~T0 @X0 0 ef ]
+"41
+[; ;./main.h: 41: void set_time_for_program(void);
+[v _set_time_for_program `(v ~T0 @X0 0 ef ]
+"2902 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2902: extern volatile __bit TMR2ON __attribute__((address(0x92)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@146 ]
+"2710
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2710: extern volatile __bit RC2 __attribute__((address(0x3A)));
+[v _RC2 `Vb ~T0 @X0 0 e@58 ]
+"37 ./main.h
+[; ;./main.h: 37: void washing_program_display(unsigned char key);
+[v _washing_program_display `(v ~T0 @X0 0 ef1`uc ]
+"40
+[; ;./main.h: 40: void water_level_display(unsigned char key);
+[v _water_level_display `(v ~T0 @X0 0 ef1`uc ]
+"42
+[; ;./main.h: 42: void run_program(unsigned char key);
+[v _run_program `(v ~T0 @X0 0 ef1`uc ]
+"14 ./clcd.h
+[; ;./clcd.h: 14: void clcd_write(unsigned char byte,unsigned char mode);
+[v _clcd_write `(v ~T0 @X0 0 ef2`uc`uc ]
+[v F972 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include/pic.h
+[v __delay `JF972 ~T0 @X0 0 e ]
+[p i __delay ]
+"15 ./clcd.h
+[; ;./clcd.h: 15: void clcd_putch(const char data,unsigned char addr);
+[v _clcd_putch `(v ~T0 @X0 0 ef2`Cuc`uc ]
+"2674 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2674: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"284
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 284:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"283
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 283: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"295
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 295: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x007)));
+[v _PORTCbits `VS13 ~T0 @X0 0 e@7 ]
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"10 main.c
+[; ;main.c: 10: 
+[p x WDTE  =  OFF ]
+"12
+[; ;main.c: 12: 
+[v _operation_mode `uc ~T0 @X0 1 e ]
+"13
+[; ;main.c: 13: 
+[v _wash_time `i ~T0 @X0 1 e ]
+[v _rinse_time `i ~T0 @X0 1 e ]
+[v _spin_time `i ~T0 @X0 1 e ]
+"14
+[; ;main.c: 14:        init_digital_keypad();
+[v _reset_mode `uc ~T0 @X0 1 e ]
+[v _program_no `uc ~T0 @X0 1 e ]
+[i _program_no
+-> -> 0 `i `uc
+]
+[v _water_level_index `uc ~T0 @X0 1 e ]
+[i _water_level_index
+-> -> 0 `i `uc
+]
+"15
+[; ;main.c: 15: 
+[v _washing_prog `*uc ~T0 @X0 -> 12 `i e ]
+[i _washing_prog
+:U ..
+:s 1C
+:s 2C
+:s 3C
+:s 4C
+:s 5C
+:s 6C
+:s 7C
+:s 8C
+:s 9C
+:s 10C
+:s 11C
+:s 12C
+..
+]
+"17
+[; ;main.c: 17:        init_timer2();
+[v _water_level_arr `*uc ~T0 @X0 -> 5 `i e ]
+[i _water_level_arr
+:U ..
+:s 13C
+:s 14C
+:s 15C
+:s 16C
+:s 17C
+..
+]
+"20
+[; ;main.c: 20:        TRISC2 = 0;
+[v _sec `uc ~T0 @X0 1 e ]
+[v _min `uc ~T0 @X0 1 e ]
+"21
+[; ;main.c: 21: 
+[v _init_config `(v ~T0 @X0 1 sf ]
+{
+[e :U _init_config ]
+[f ]
+"23
+[; ;main.c: 23: 
+[e ( _init_clcd ..  ]
+"26
+[; ;main.c: 26: }
+[e ( _init_digital_keypad ..  ]
+"29
+[; ;main.c: 29:     unsigned char key =0x3F, key_copy;
+[e ( _init_timer2 ..  ]
+"32
+[; ;main.c: 32:     init_config();
+[e = _TRISC2 -> -> 0 `i `b ]
+"34
+[; ;main.c: 34:     clcd_print(" Press SW5 To  ", (0x80+0));
+[e = _TRISC1 -> -> 0 `i `b ]
+"36
+[; ;main.c: 36:     clcd_print(" Washing Machine", (0x90+0));
+[e = _PEIE -> -> 1 `i `b ]
+"37
+[; ;main.c: 37: 
+[e = _GIE -> -> 1 `i `b ]
+"38
+[; ;main.c: 38:    while( read_digital_keypad(1) != 0x2F)
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"40
+[; ;main.c: 40:        for(int j=3000; j--; );
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"41
+[; ;main.c: 41: 
+[v _key `uc ~T0 @X0 1 a ]
+[e = _key -> -> 63 `i `uc ]
+[v _key_copy `uc ~T0 @X0 1 a ]
+"42
+[; ;main.c: 42:    }
+[e = _operation_mode -> -> 1 `i `uc ]
+"43
+[; ;main.c: 43: 
+[e = _reset_mode -> -> 16 `i `uc ]
+"44
+[; ;main.c: 44:     clear_screen();
+[e ( _init_config ..  ]
+"46
+[; ;main.c: 46: 
+[e ( _clcd_print (2 , :s 18C -> + -> 128 `i -> 0 `i `uc ]
+"47
+[; ;main.c: 47:    power_on_screen();
+[e ( _clcd_print (2 , :s 19C -> + -> 192 `i -> 0 `i `uc ]
+"48
+[; ;main.c: 48: 
+[e ( _clcd_print (2 , :s 20C -> + -> 144 `i -> 0 `i `uc ]
+"50
+[; ;main.c: 50:     while(1) {
+[e $U 101  ]
+[e :U 102 ]
+"51
+[; ;main.c: 51:         key = read_digital_keypad(1);
+{
+"52
+[; ;main.c: 52:          for(int j=3000; j--; );
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 3000 `i ]
+[e $U 107  ]
+[e :U 104 ]
+[e :U 107 ]
+[e $ != -- _j -> 1 `i -> 0 `i 104  ]
+[e :U 105 ]
+}
+"54
+[; ;main.c: 54:          if(key == 0xB7 && operation_mode == 0x01)
+}
+[e :U 101 ]
+"50
+[; ;main.c: 50:     while(1) {
+[e $ != -> ( _read_digital_keypad (1 -> -> 1 `i `uc `i -> 47 `i 102  ]
+[e :U 103 ]
+"56
+[; ;main.c: 56: 
+[e ( _clear_screen ..  ]
+"59
+[; ;main.c: 59:         }
+[e ( _power_on_screen ..  ]
+"62
+[; ;main.c: 62: 
+[e :U 109 ]
+{
+"63
+[; ;main.c: 63:             set_time_for_program();
+[e = _key ( _read_digital_keypad (1 -> -> 1 `i `uc ]
+"64
+[; ;main.c: 64: 
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 3000 `i ]
+[e $U 114  ]
+[e :U 111 ]
+[e :U 114 ]
+[e $ != -- _j -> 1 `i -> 0 `i 111  ]
+[e :U 112 ]
+}
+"66
+[; ;main.c: 66: 
+[e $ ! && == -> _key `i -> 183 `i == -> _operation_mode `i -> 1 `i 115  ]
+"67
+[; ;main.c: 67:             clcd_print("Press Switch", (0x80+0));
+{
+"69
+[; ;main.c: 69:             clcd_print(" SW6: STOP ", (0x90+0));
+[e = _operation_mode -> -> 2 `i `uc ]
+"70
+[; ;main.c: 70:             operation_mode = 0x03;
+[e = _reset_mode -> -> 17 `i `uc ]
+"71
+[; ;main.c: 71:         }
+}
+[e $U 116  ]
+"72
+[; ;main.c: 72:         else if(key == 0x2F && operation_mode == 0x05)
+[e :U 115 ]
+[e $ ! && == -> _key `i -> 183 `i == -> _operation_mode `i -> 2 `i 117  ]
+"73
+[; ;main.c: 73:         {
+{
+"75
+[; ;main.c: 75:             RC2 = 1;
+[e ( _set_time_for_program ..  ]
+"77
+[; ;main.c: 77:         }
+[e ( _clear_screen ..  ]
+"79
+[; ;main.c: 79:         switch(operation_mode)
+[e ( _clcd_print (2 , :s 21C -> + -> 128 `i -> 0 `i `uc ]
+"80
+[; ;main.c: 80:         {
+[e ( _clcd_print (2 , :s 22C -> + -> 192 `i -> 0 `i `uc ]
+"81
+[; ;main.c: 81: 
+[e ( _clcd_print (2 , :s 23C -> + -> 144 `i -> 0 `i `uc ]
+"82
+[; ;main.c: 82:             case 0x01:
+[e = _operation_mode -> -> 3 `i `uc ]
+"83
+[; ;main.c: 83:                  washing_program_display(key);
+}
+[e $U 118  ]
+"84
+[; ;main.c: 84:                  break;
+[e :U 117 ]
+[e $ ! && == -> _key `i -> 47 `i == -> _operation_mode `i -> 5 `i 119  ]
+"85
+[; ;main.c: 85:             case 0x02:
+{
+"86
+[; ;main.c: 86:                 water_level_display(key);
+[e = _TMR2ON -> -> 1 `i `b ]
+"87
+[; ;main.c: 87:                 break;
+[e = _RC2 -> -> 1 `i `b ]
+"88
+[; ;main.c: 88:             case 0x03:
+[e = _operation_mode -> -> 4 `i `uc ]
+"89
+[; ;main.c: 89:                 if(key == 0x2F)
+}
+[e :U 119 ]
+[e :U 118 ]
+[e :U 116 ]
+"91
+[; ;main.c: 91:                     operation_mode = 0x04;
+[e $U 121  ]
+"92
+[; ;main.c: 92:                     reset_mode = 0x12;
+{
+"94
+[; ;main.c: 94:                 }
+[e :U 122 ]
+"95
+[; ;main.c: 95:                 else if(key == 0x1F)
+[e ( _washing_program_display (1 _key ]
+"96
+[; ;main.c: 96:                 {
+[e $U 120  ]
+"97
+[; ;main.c: 97:                     operation_mode = 0x01;
+[e :U 123 ]
+"98
+[; ;main.c: 98:                     reset_mode = 0x10;
+[e ( _water_level_display (1 _key ]
+"99
+[; ;main.c: 99:                     continue;
+[e $U 120  ]
+"100
+[; ;main.c: 100: 
+[e :U 124 ]
+"101
+[; ;main.c: 101:                 }
+[e $ ! == -> _key `i -> 47 `i 125  ]
+"102
+[; ;main.c: 102:                 break;
+{
+"103
+[; ;main.c: 103:             case 0x04:
+[e = _operation_mode -> -> 4 `i `uc ]
+"104
+[; ;main.c: 104:                 run_program(key);
+[e = _reset_mode -> -> 18 `i `uc ]
+"105
+[; ;main.c: 105:                 break;
+[e $U 108  ]
+"106
+[; ;main.c: 106: 
+}
+[e $U 126  ]
+"107
+[; ;main.c: 107:         }
+[e :U 125 ]
+[e $ ! == -> _key `i -> 31 `i 127  ]
+"108
+[; ;main.c: 108:         reset_mode = 0x00;
+{
+"109
+[; ;main.c: 109:     }
+[e = _operation_mode -> -> 1 `i `uc ]
+"110
+[; ;main.c: 110: 
+[e = _reset_mode -> -> 16 `i `uc ]
+"111
+[; ;main.c: 111: }
+[e $U 108  ]
+"113
+[; ;main.c: 113: void clear_screen(void)
+}
+[e :U 127 ]
+[e :U 126 ]
+"114
+[; ;main.c: 114: {
+[e $U 120  ]
+"115
+[; ;main.c: 115:      clcd_write(0x01, 0);
+[e :U 128 ]
+"116
+[; ;main.c: 116:      _delay((unsigned long)((100)*(20000000/4000000.0)));
+[e ( _run_program (1 _key ]
+"117
+[; ;main.c: 117: }
+[e $U 120  ]
+"119
+[; ;main.c: 119: void power_on_screen(void)
+}
+[e $U 120  ]
+[e :U 121 ]
+[e [\ _operation_mode , $ -> 1 `i 122
+ , $ -> 2 `i 123
+ , $ -> 3 `i 124
+ , $ -> 4 `i 128
+ 120 ]
+[e :U 120 ]
+"120
+[; ;main.c: 120: {
+[e = _reset_mode -> -> 0 `i `uc ]
+"121
+[; ;main.c: 121: 
+}
+[e :U 108 ]
+[e $U 109  ]
+[e :U 110 ]
+"123
+[; ;main.c: 123: {
+[e :UE 100 ]
+}
+"125
+[; ;main.c: 125: }
+[v _clear_screen `(v ~T0 @X0 1 ef ]
+"126
+[; ;main.c: 126: clcd_print("  Powering ON   ", (0xC0+0));
+{
+[e :U _clear_screen ]
+[f ]
+"127
+[; ;main.c: 127: clcd_print(" Washing Machine ", (0x90+0));
+[e ( _clcd_write (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"128
+[; ;main.c: 128: for(unsigned char i = 0; i < 16; i++)
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"129
+[; ;main.c: 129: {
+[e :UE 129 ]
+}
+"131
+[; ;main.c: 131: }
+[v _power_on_screen `(v ~T0 @X0 1 ef ]
+"132
+[; ;main.c: 132: 
+{
+[e :U _power_on_screen ]
+[f ]
+"134
+[; ;main.c: 134:     clcd_putch(0xFF, (0x80+pos));
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 131  ]
+[e $U 132  ]
+[e :U 131 ]
+"135
+[; ;main.c: 135:     clcd_putch(0xFF, (0xD0+pos));
+{
+"136
+[; ;main.c: 136:     _delay((unsigned long)((100)*(20000000/4000.0)));
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 128 `i -> _i `i `uc ]
+"137
+[; ;main.c: 137:     clcd_putch(' ', (0x80+pos));
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 131  ]
+[e :U 132 ]
+}
+"138
+[; ;main.c: 138:     clcd_putch(' ', (0xD0+pos));
+[e ( _clcd_print (2 , :s 24C -> + -> 192 `i -> 0 `i `uc ]
+"139
+[; ;main.c: 139: }
+[e ( _clcd_print (2 , :s 25C -> + -> 144 `i -> 0 `i `uc ]
+"140
+[; ;main.c: 140: _delay((unsigned long)((1000)*(20000000/4000.0)));
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 134  ]
+[e $U 135  ]
+[e :U 134 ]
+"141
+[; ;main.c: 141: }
+{
+"142
+[; ;main.c: 142: 
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 208 `i -> _i `i `uc ]
+"143
+[; ;main.c: 143: void washing_program_display(unsigned char key)
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 134  ]
+[e :U 135 ]
+}
+"145
+[; ;main.c: 145:     if( reset_mode == 0x10)
+{
+[v _pos `uc ~T0 @X0 1 a ]
+[e = _pos -> -> 0 `i `uc ]
+[e $ < -> _pos `i -> 16 `i 137  ]
+[e $U 138  ]
+[e :U 137 ]
+{
+"146
+[; ;main.c: 146:     {
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 128 `i -> _pos `i `uc ]
+"147
+[; ;main.c: 147:         clear_screen();
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 208 `i -> _pos `i `uc ]
+"148
+[; ;main.c: 148:         program_no = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"149
+[; ;main.c: 149:     }
+[e ( _clcd_putch (2 , -> -> 32 `ui `uc -> + -> 128 `i -> _pos `i `uc ]
+"150
+[; ;main.c: 150:     if (key == 0x37)
+[e ( _clcd_putch (2 , -> -> 32 `ui `uc -> + -> 208 `i -> _pos `i `uc ]
+"151
+[; ;main.c: 151:     {
+}
+[e ++ _pos -> -> 1 `i `uc ]
+[e $ < -> _pos `i -> 16 `i 137  ]
+[e :U 138 ]
+}
+"152
+[; ;main.c: 152:        program_no++;
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"153
+[; ;main.c: 153:        if( program_no == 12)
+[e :UE 130 ]
+}
+"155
+[; ;main.c: 155:              clear_screen();
+[v _washing_program_display `(v ~T0 @X0 1 ef1`uc ]
+"156
+[; ;main.c: 156:     }
+{
+[e :U _washing_program_display ]
+"155
+[; ;main.c: 155:              clear_screen();
+[v _key `uc ~T0 @X0 1 r1 ]
+"156
+[; ;main.c: 156:     }
+[f ]
+"157
+[; ;main.c: 157: 
+[e $ ! == -> _reset_mode `i -> 16 `i 141  ]
+"158
+[; ;main.c: 158:     clcd_print("Washing Program", (0x80+0));
+{
+"159
+[; ;main.c: 159:     clcd_putch('>', (0xC0+0));
+[e ( _clear_screen ..  ]
+"160
+[; ;main.c: 160: 
+[e = _program_no -> -> 0 `i `uc ]
+"161
+[; ;main.c: 161: 
+}
+[e :U 141 ]
+"162
+[; ;main.c: 162:     if(program_no <= 9)
+[e $ ! == -> _key `i -> 55 `i 142  ]
+"163
+[; ;main.c: 163:     {
+{
+"164
+[; ;main.c: 164:           clcd_print(washing_prog[program_no],(0xC0+2));
+[e ++ _program_no -> -> 1 `i `uc ]
+"165
+[; ;main.c: 165:           clcd_print(washing_prog[program_no + 1],(0x90+2));
+[e $ ! == -> _program_no `i -> 12 `i 143  ]
+"166
+[; ;main.c: 166:           clcd_print(washing_prog[program_no + 2],(0xD0+2));
+[e = _program_no -> -> 0 `i `uc ]
+[e :U 143 ]
+"167
+[; ;main.c: 167:     }
+[e ( _clear_screen ..  ]
+"168
+[; ;main.c: 168:     else if(program_no == 10)
+}
+[e :U 142 ]
+"170
+[; ;main.c: 170:           clcd_print(washing_prog[program_no],(0xC0+2));
+[e ( _clcd_print (2 , :s 26C -> + -> 128 `i -> 0 `i `uc ]
+"171
+[; ;main.c: 171:           clcd_print(washing_prog[program_no + 1],(0x90+2));
+[e ( _clcd_putch (2 , -> -> 62 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"174
+[; ;main.c: 174:     }
+[e $ ! <= -> _program_no `i -> 9 `i 144  ]
+"175
+[; ;main.c: 175:     else if(program_no == 11)
+{
+"176
+[; ;main.c: 176:     {
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"177
+[; ;main.c: 177:           clcd_print(washing_prog[program_no], (0xC0+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"178
+[; ;main.c: 178:           clcd_print(washing_prog[0], (0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 2 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"179
+[; ;main.c: 179:           clcd_print(washing_prog[1], (0xD0+2));
+}
+[e $U 145  ]
+"180
+[; ;main.c: 180:     }
+[e :U 144 ]
+[e $ ! == -> _program_no `i -> 10 `i 146  ]
+"181
+[; ;main.c: 181: }
+{
+"182
+[; ;main.c: 182: 
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"183
+[; ;main.c: 183: void water_level_display(unsigned char key)
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> + -> _program_no `i -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"184
+[; ;main.c: 184: {
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 0 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"186
+[; ;main.c: 186:     {
+}
+[e $U 147  ]
+"187
+[; ;main.c: 187:         water_level_index = 0;
+[e :U 146 ]
+[e $ ! == -> _program_no `i -> 11 `i 148  ]
+"188
+[; ;main.c: 188:         clear_screen();
+{
+"189
+[; ;main.c: 189:     }
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"190
+[; ;main.c: 190:     if(key == 0x37)
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 0 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"191
+[; ;main.c: 191:     {
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> -> -> 1 `i `ui `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"192
+[; ;main.c: 192:         water_level_index++;
+}
+[e :U 148 ]
+[e :U 147 ]
+[e :U 145 ]
+"193
+[; ;main.c: 193:         if(water_level_index == 5)
+[e :UE 140 ]
+}
+"195
+[; ;main.c: 195:             water_level_index = 0;
+[v _water_level_display `(v ~T0 @X0 1 ef1`uc ]
+"196
+[; ;main.c: 196:         }
+{
+[e :U _water_level_display ]
+"195
+[; ;main.c: 195:             water_level_index = 0;
+[v _key `uc ~T0 @X0 1 r1 ]
+"196
+[; ;main.c: 196:         }
+[f ]
+"197
+[; ;main.c: 197:         clear_screen();
+[e $ ! == -> _reset_mode `i -> 17 `i 150  ]
+"198
+[; ;main.c: 198: 
+{
+"199
+[; ;main.c: 199:     }
+[e = _water_level_index -> -> 0 `i `uc ]
+"200
+[; ;main.c: 200: 
+[e ( _clear_screen ..  ]
+"201
+[; ;main.c: 201:     clcd_print("Water Level", (0x80+0));
+}
+[e :U 150 ]
+"202
+[; ;main.c: 202:     clcd_putch('>', (0xC0+0));
+[e $ ! == -> _key `i -> 55 `i 151  ]
+"203
+[; ;main.c: 203:     if(water_level_index <= 2)
+{
+"204
+[; ;main.c: 204:     {
+[e ++ _water_level_index -> -> 1 `i `uc ]
+"205
+[; ;main.c: 205:         clcd_print(water_level_arr[water_level_index], (0xC0+2));
+[e $ ! == -> _water_level_index `i -> 5 `i 152  ]
+"206
+[; ;main.c: 206:         clcd_print(water_level_arr[water_level_index + 1], (0x90+2));
+{
+"207
+[; ;main.c: 207:         clcd_print(water_level_arr[water_level_index + 2], (0xD0+2));
+[e = _water_level_index -> -> 0 `i `uc ]
+"208
+[; ;main.c: 208:     }
+}
+[e :U 152 ]
+"209
+[; ;main.c: 209:     else if(water_level_index == 3)
+[e ( _clear_screen ..  ]
+"211
+[; ;main.c: 211:         clcd_print(water_level_arr[water_level_index], (0xC0+2));
+}
+[e :U 151 ]
+"213
+[; ;main.c: 213:         clcd_print(water_level_arr[0],(0xD0+2));
+[e ( _clcd_print (2 , :s 27C -> + -> 128 `i -> 0 `i `uc ]
+"214
+[; ;main.c: 214:     }
+[e ( _clcd_putch (2 , -> -> 62 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"215
+[; ;main.c: 215:      else if(water_level_index == 4)
+[e $ ! <= -> _water_level_index `i -> 2 `i 153  ]
+"216
+[; ;main.c: 216:     {
+{
+"217
+[; ;main.c: 217:         clcd_print(water_level_arr[water_level_index], (0xC0+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"218
+[; ;main.c: 218:         clcd_print(water_level_arr[0], (0x90+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"219
+[; ;main.c: 219:         clcd_print(water_level_arr[1], (0xD0+2));
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 2 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"220
+[; ;main.c: 220:     }
+}
+[e $U 154  ]
+"221
+[; ;main.c: 221: }
+[e :U 153 ]
+[e $ ! == -> _water_level_index `i -> 3 `i 155  ]
+"222
+[; ;main.c: 222: 
+{
+"223
+[; ;main.c: 223: void set_time_for_program(void)
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"224
+[; ;main.c: 224: {
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> + -> _water_level_index `i -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"225
+[; ;main.c: 225:     switch(program_no)
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 0 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"226
+[; ;main.c: 226:     {
+}
+[e $U 156  ]
+"227
+[; ;main.c: 227:     case 0:
+[e :U 155 ]
+[e $ ! == -> _water_level_index `i -> 4 `i 157  ]
+"228
+[; ;main.c: 228:         switch(water_level_index)
+{
+"229
+[; ;main.c: 229:         {
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> _water_level_index `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 192 `i -> 2 `i `uc ]
+"230
+[; ;main.c: 230: 
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 0 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 144 `i -> 2 `i `uc ]
+"231
+[; ;main.c: 231:             case 1:
+[e ( _clcd_print (2 , -> *U + &U _water_level_arr * -> -> -> 1 `i `ui `ux -> -> # *U &U _water_level_arr `ui `ux `*Cuc -> + -> 208 `i -> 2 `i `uc ]
+"232
+[; ;main.c: 232:                 sec = 33;
+}
+[e :U 157 ]
+[e :U 156 ]
+[e :U 154 ]
+"233
+[; ;main.c: 233:                 min = 0;
+[e :UE 149 ]
+}
+"235
+[; ;main.c: 235:             case 0:
+[v _set_time_for_program `(v ~T0 @X0 1 ef ]
+"236
+[; ;main.c: 236:             case 2:
+{
+[e :U _set_time_for_program ]
+[f ]
+"237
+[; ;main.c: 237:                 sec = 41;
+[e $U 160  ]
+"238
+[; ;main.c: 238:                 min = 0;
+{
+"239
+[; ;main.c: 239:                 break;
+[e :U 161 ]
+"240
+[; ;main.c: 240:              case 3:
+[e $U 163  ]
+"241
+[; ;main.c: 241:              case 4:
+{
+"243
+[; ;main.c: 243:                 min = 0;
+[e :U 164 ]
+"244
+[; ;main.c: 244:         }
+[e = _sec -> -> 33 `i `uc ]
+"245
+[; ;main.c: 245:         break;
+[e = _min -> -> 0 `i `uc ]
+"246
+[; ;main.c: 246:      case 1:
+[e $U 162  ]
+"247
+[; ;main.c: 247:          switch(water_level_index)
+[e :U 165 ]
+"248
+[; ;main.c: 248:          {
+[e :U 166 ]
+"249
+[; ;main.c: 249: 
+[e = _sec -> -> 41 `i `uc ]
+"250
+[; ;main.c: 250:      case 1:
+[e = _min -> -> 0 `i `uc ]
+"251
+[; ;main.c: 251:          sec = 43;
+[e $U 162  ]
+"252
+[; ;main.c: 252:          min = 0;
+[e :U 167 ]
+"253
+[; ;main.c: 253:      case 0:
+[e :U 168 ]
+"254
+[; ;main.c: 254:      case 2:
+[e = _sec -> -> 45 `i `uc ]
+"255
+[; ;main.c: 255:         sec = 50;
+[e = _min -> -> 0 `i `uc ]
+"256
+[; ;main.c: 256:         min = 0;
+}
+[e $U 162  ]
+[e :U 163 ]
+[e [\ _water_level_index , $ -> 1 `i 164
+ , $ -> 0 `i 165
+ , $ -> 2 `i 166
+ , $ -> 3 `i 167
+ , $ -> 4 `i 168
+ 162 ]
+[e :U 162 ]
+"257
+[; ;main.c: 257:         break;
+[e $U 159  ]
+"258
+[; ;main.c: 258:      case 3:
+[e :U 169 ]
+"259
+[; ;main.c: 259:      case 4:
+[e $U 171  ]
+"260
+[; ;main.c: 260:         sec = 57;
+{
+"262
+[; ;main.c: 262:          }
+[e :U 172 ]
+"263
+[; ;main.c: 263:          break;
+[e = _sec -> -> 43 `i `uc ]
+"264
+[; ;main.c: 264:         case 2:
+[e = _min -> -> 0 `i `uc ]
+"265
+[; ;main.c: 265:             switch(water_level_index)
+[e :U 173 ]
+"266
+[; ;main.c: 266:             {
+[e :U 174 ]
+"267
+[; ;main.c: 267: 
+[e = _sec -> -> 50 `i `uc ]
+"268
+[; ;main.c: 268:                 case 1:
+[e = _min -> -> 0 `i `uc ]
+"269
+[; ;main.c: 269:                 case 0:
+[e $U 170  ]
+"270
+[; ;main.c: 270:                 case 2:
+[e :U 175 ]
+"271
+[; ;main.c: 271:                     sec = 26;
+[e :U 176 ]
+"272
+[; ;main.c: 272:                     min = 0;
+[e = _sec -> -> 57 `i `uc ]
+"273
+[; ;main.c: 273:                     break;
+[e = _min -> -> 0 `i `uc ]
+"274
+[; ;main.c: 274:                 case 3:
+}
+[e $U 170  ]
+[e :U 171 ]
+[e [\ _water_level_index , $ -> 1 `i 172
+ , $ -> 0 `i 173
+ , $ -> 2 `i 174
+ , $ -> 3 `i 175
+ , $ -> 4 `i 176
+ 170 ]
+[e :U 170 ]
+"275
+[; ;main.c: 275:                 case 4:
+[e $U 159  ]
+"276
+[; ;main.c: 276:                 sec = 31;
+[e :U 177 ]
+"277
+[; ;main.c: 277:                 min = 0;
+[e $U 179  ]
+"278
+[; ;main.c: 278:             }
+{
+"280
+[; ;main.c: 280:         case 3:
+[e :U 180 ]
+"281
+[; ;main.c: 281:             sec = 16;
+[e :U 181 ]
+"282
+[; ;main.c: 282:             min =1;
+[e :U 182 ]
+"283
+[; ;main.c: 283:             break;
+[e = _sec -> -> 26 `i `uc ]
+"284
+[; ;main.c: 284:         case 4:
+[e = _min -> -> 0 `i `uc ]
+"285
+[; ;main.c: 285: 
+[e $U 178  ]
+"286
+[; ;main.c: 286:             sec = 36;
+[e :U 183 ]
+"287
+[; ;main.c: 287:             min = 1;
+[e :U 184 ]
+"288
+[; ;main.c: 288:         case 5:
+[e = _sec -> -> 31 `i `uc ]
+"289
+[; ;main.c: 289:             sec = 28;
+[e = _min -> -> 0 `i `uc ]
+"290
+[; ;main.c: 290:             min = 0;
+}
+[e $U 178  ]
+[e :U 179 ]
+[e [\ _water_level_index , $ -> 1 `i 180
+ , $ -> 0 `i 181
+ , $ -> 2 `i 182
+ , $ -> 3 `i 183
+ , $ -> 4 `i 184
+ 178 ]
+[e :U 178 ]
+"291
+[; ;main.c: 291:             break;
+[e $U 159  ]
+"292
+[; ;main.c: 292:         case 6:
+[e :U 185 ]
+"293
+[; ;main.c: 293:             sec = 29;
+[e = _sec -> -> 16 `i `uc ]
+"294
+[; ;main.c: 294:             break;
+[e = _min -> -> 1 `i `uc ]
+"295
+[; ;main.c: 295:         case 7:
+[e $U 159  ]
+"296
+[; ;main.c: 296:             switch(water_level_index)
+[e :U 186 ]
+"298
+[; ;main.c: 298: 
+[e = _sec -> -> 36 `i `uc ]
+"299
+[; ;main.c: 299:                 case 1:
+[e = _min -> -> 1 `i `uc ]
+"300
+[; ;main.c: 300:                 sec = 46;
+[e :U 187 ]
+"301
+[; ;main.c: 301:                 min = 0;
+[e = _sec -> -> 28 `i `uc ]
+"302
+[; ;main.c: 302:                 case 0:
+[e = _min -> -> 0 `i `uc ]
+"303
+[; ;main.c: 303:                 case 2:
+[e $U 159  ]
+"304
+[; ;main.c: 304:                     sec = 53;
+[e :U 188 ]
+"305
+[; ;main.c: 305:                     min = 0;
+[e = _sec -> -> 29 `i `uc ]
+"306
+[; ;main.c: 306:                     break;
+[e $U 159  ]
+"307
+[; ;main.c: 307:                 case 3:
+[e :U 189 ]
+"308
+[; ;main.c: 308:                 case 4:
+[e $U 191  ]
+"309
+[; ;main.c: 309:                     sec = 60;
+{
+"311
+[; ;main.c: 311:             }
+[e :U 192 ]
+"312
+[; ;main.c: 312:             break;
+[e = _sec -> -> 46 `i `uc ]
+"313
+[; ;main.c: 313:         case 8:
+[e = _min -> -> 0 `i `uc ]
+"314
+[; ;main.c: 314:             switch(water_level_index)
+[e :U 193 ]
+"315
+[; ;main.c: 315:             {
+[e :U 194 ]
+"316
+[; ;main.c: 316: 
+[e = _sec -> -> 53 `i `uc ]
+"317
+[; ;main.c: 317:                 case 1:
+[e = _min -> -> 0 `i `uc ]
+"318
+[; ;main.c: 318:                     sec = 18;
+[e $U 190  ]
+"319
+[; ;main.c: 319:                     min = 0;
+[e :U 195 ]
+"320
+[; ;main.c: 320:                 case 0:
+[e :U 196 ]
+"321
+[; ;main.c: 321:                 case 2:
+[e = _sec -> -> 60 `i `uc ]
+"322
+[; ;main.c: 322:                 case 3:
+[e = _min -> -> 0 `i `uc ]
+"323
+[; ;main.c: 323:                 case 4:
+}
+[e $U 190  ]
+[e :U 191 ]
+[e [\ _water_level_index , $ -> 1 `i 192
+ , $ -> 0 `i 193
+ , $ -> 2 `i 194
+ , $ -> 3 `i 195
+ , $ -> 4 `i 196
+ 190 ]
+[e :U 190 ]
+"324
+[; ;main.c: 324:                     sec = 20;
+[e $U 159  ]
+"325
+[; ;main.c: 325:                     min = 0;
+[e :U 197 ]
+"326
+[; ;main.c: 326:             }
+[e $U 199  ]
+"327
+[; ;main.c: 327:             break;
+{
+"329
+[; ;main.c: 329:             sec = 6;
+[e :U 200 ]
+"330
+[; ;main.c: 330:             break;
+[e = _sec -> -> 18 `i `uc ]
+"331
+[; ;main.c: 331:         case 10:
+[e = _min -> -> 0 `i `uc ]
+"332
+[; ;main.c: 332:         case 11:
+[e :U 201 ]
+"333
+[; ;main.c: 333:             switch(water_level_index)
+[e :U 202 ]
+"334
+[; ;main.c: 334:             {
+[e :U 203 ]
+"335
+[; ;main.c: 335: 
+[e :U 204 ]
+"336
+[; ;main.c: 336:                 case 1:
+[e = _sec -> -> 20 `i `uc ]
+"337
+[; ;main.c: 337:                     sec = 16;
+[e = _min -> -> 0 `i `uc ]
+"338
+[; ;main.c: 338:                     min = 0;
+}
+[e $U 198  ]
+[e :U 199 ]
+[e [\ _water_level_index , $ -> 1 `i 200
+ , $ -> 0 `i 201
+ , $ -> 2 `i 202
+ , $ -> 3 `i 203
+ , $ -> 4 `i 204
+ 198 ]
+[e :U 198 ]
+"339
+[; ;main.c: 339:                 case 0:
+[e $U 159  ]
+"340
+[; ;main.c: 340:                 case 2:
+[e :U 205 ]
+"341
+[; ;main.c: 341:                     sec = 21;
+[e = _sec -> -> 6 `i `uc ]
+"342
+[; ;main.c: 342:                     min = 0;
+[e $U 159  ]
+"343
+[; ;main.c: 343:                     break;
+[e :U 206 ]
+"344
+[; ;main.c: 344:                 case 3:
+[e :U 207 ]
+"345
+[; ;main.c: 345:                 case 4:
+[e $U 209  ]
+"346
+[; ;main.c: 346:                     sec = 26;
+{
+"348
+[; ;main.c: 348:             }
+[e :U 210 ]
+"349
+[; ;main.c: 349:             break;
+[e = _sec -> -> 16 `i `uc ]
+"350
+[; ;main.c: 350:       }
+[e = _min -> -> 0 `i `uc ]
+"351
+[; ;main.c: 351: 
+[e :U 211 ]
+"352
+[; ;main.c: 352: }
+[e :U 212 ]
+"353
+[; ;main.c: 353: 
+[e = _sec -> -> 21 `i `uc ]
+"354
+[; ;main.c: 354: void door_status_check(void)
+[e = _min -> -> 0 `i `uc ]
+"355
+[; ;main.c: 355: {
+[e $U 208  ]
+"356
+[; ;main.c: 356:     if(RB0 == 0)
+[e :U 213 ]
+"357
+[; ;main.c: 357:     {
+[e :U 214 ]
+"358
+[; ;main.c: 358: 
+[e = _sec -> -> 26 `i `uc ]
+"359
+[; ;main.c: 359:         PORTCbits.RC2 = 1;
+[e = _min -> -> 0 `i `uc ]
+"360
+[; ;main.c: 360:         RC2 = 0;
+}
+[e $U 208  ]
+[e :U 209 ]
+[e [\ _water_level_index , $ -> 1 `i 210
+ , $ -> 0 `i 211
+ , $ -> 2 `i 212
+ , $ -> 3 `i 213
+ , $ -> 4 `i 214
+ 208 ]
+[e :U 208 ]
+"361
+[; ;main.c: 361:         TMR2ON = 0;
+[e $U 159  ]
+"362
+[; ;main.c: 362: 
+}
+[e $U 159  ]
+[e :U 160 ]
+[e [\ _program_no , $ -> 0 `i 161
+ , $ -> 1 `i 169
+ , $ -> 2 `i 177
+ , $ -> 3 `i 185
+ , $ -> 4 `i 186
+ , $ -> 5 `i 187
+ , $ -> 6 `i 188
+ , $ -> 7 `i 189
+ , $ -> 8 `i 197
+ , $ -> 9 `i 205
+ , $ -> 10 `i 206
+ , $ -> 11 `i 207
+ 159 ]
+[e :U 159 ]
+"364
+[; ;main.c: 364:         clcd_print("DOOR : OPEN", (0x80+0));
+[e :UE 158 ]
+}
+"366
+[; ;main.c: 366: 
+[v _door_status_check `(v ~T0 @X0 1 ef ]
+"367
+[; ;main.c: 367: 
+{
+[e :U _door_status_check ]
+[f ]
+"368
+[; ;main.c: 368:         while( RB0 == 0 )
+[e $ ! == -> _RB0 `i -> 0 `i 216  ]
+"369
+[; ;main.c: 369:         {
+{
+"371
+[; ;main.c: 371:         }
+[e = . . _PORTCbits 0 2 -> -> 1 `i `uc ]
+"372
+[; ;main.c: 372:         clear_screen();
+[e = _RC2 -> -> 0 `i `b ]
+"373
+[; ;main.c: 373: 
+[e = _TMR2ON -> -> 0 `i `b ]
+"375
+[; ;main.c: 375:         TMR2ON = 1;
+[e ( _clear_screen ..  ]
+"376
+[; ;main.c: 376: 
+[e ( _clcd_print (2 , :s 28C -> + -> 128 `i -> 0 `i `uc ]
+"377
+[; ;main.c: 377:         PORTCbits.RC2 = 0;
+[e ( _clcd_print (2 , :s 29C -> + -> 144 `i -> 0 `i `uc ]
+"380
+[; ;main.c: 380:         clcd_print("5-START  6-PAUSE", (0xD0+0));
+[e $U 217  ]
+[e :U 218 ]
+"381
+[; ;main.c: 381: 
+{
+"383
+[; ;main.c: 383: }
+}
+[e :U 217 ]
+"380
+[; ;main.c: 380:         clcd_print("5-START  6-PAUSE", (0xD0+0));
+[e $ == -> _RB0 `i -> 0 `i 218  ]
+[e :U 219 ]
+"384
+[; ;main.c: 384: 
+[e ( _clear_screen ..  ]
+"386
+[; ;main.c: 386: {
+[e = _RC2 -> -> 1 `i `b ]
+"387
+[; ;main.c: 387:     door_status_check();
+[e = _TMR2ON -> -> 1 `i `b ]
+"389
+[; ;main.c: 389:         if(reset_mode == 0x12)
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"390
+[; ;main.c: 390:         {
+[e ( _clcd_print (2 , :s 30C -> + -> 128 `i -> 0 `i `uc ]
+"391
+[; ;main.c: 391:             clear_screen();
+[e ( _clcd_print (2 , :s 31C -> + -> 192 `i -> 0 `i `uc ]
+"392
+[; ;main.c: 392:             clcd_print("Prog: ",(0x80+0));
+[e ( _clcd_print (2 , :s 32C -> + -> 208 `i -> 0 `i `uc ]
+"394
+[; ;main.c: 394:             clcd_print("Time:",(0xC0+0));
+}
+[e :U 216 ]
+"395
+[; ;main.c: 395: 
+[e :UE 215 ]
+}
+"397
+[; ;main.c: 397:             clcd_putch((min/10)+'0',(0xC0+6));
+[v _run_program `(v ~T0 @X0 1 ef1`uc ]
+"398
+[; ;main.c: 398:             clcd_putch((min%10)+'0',(0xC0+7));
+{
+[e :U _run_program ]
+"397
+[; ;main.c: 397:             clcd_putch((min/10)+'0',(0xC0+6));
+[v _key `uc ~T0 @X0 1 r1 ]
+"398
+[; ;main.c: 398:             clcd_putch((min%10)+'0',(0xC0+7));
+[f ]
+"399
+[; ;main.c: 399:             clcd_putch(':',(0xC0+8));
+[e ( _door_status_check ..  ]
+"400
+[; ;main.c: 400:             clcd_putch((sec/10)+'0',(0xC0+9));
+[v F1041 `i ~T0 @X0 1 s total_time ]
+[v F1042 `i ~T0 @X0 1 s time ]
+"401
+[; ;main.c: 401:             clcd_putch((sec%10)+'0',(0xC0+10));
+[e $ ! == -> _reset_mode `i -> 18 `i 221  ]
+"402
+[; ;main.c: 402:             clcd_print("(MM:SS)",(0x90+5));
+{
+"403
+[; ;main.c: 403:             _delay((unsigned long)((2000)*(20000000/4000.0)));
+[e ( _clear_screen ..  ]
+"404
+[; ;main.c: 404: 
+[e ( _clcd_print (2 , :s 33C -> + -> 128 `i -> 0 `i `uc ]
+"405
+[; ;main.c: 405: 
+[e ( _clcd_print (2 , -> *U + &U _washing_prog * -> _program_no `ux -> -> # *U &U _washing_prog `ui `ux `*Cuc -> + -> 128 `i -> 6 `i `uc ]
+"406
+[; ;main.c: 406:             clear_screen();
+[e ( _clcd_print (2 , :s 34C -> + -> 192 `i -> 0 `i `uc ]
+"409
+[; ;main.c: 409:             clcd_print("5-START  6-PAUSE", (0xD0+0));
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 6 `i `uc ]
+"410
+[; ;main.c: 410: 
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 7 `i `uc ]
+"411
+[; ;main.c: 411: 
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"412
+[; ;main.c: 412:             time = total_time = (min*60+sec);
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"413
+[; ;main.c: 413:             wash_time = (int)(total_time *0.4);
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"414
+[; ;main.c: 414:             rinse_time =(int)(total_time *0.12);
+[e ( _clcd_print (2 , :s 35C -> + -> 144 `i -> 5 `i `uc ]
+"415
+[; ;main.c: 415:             spin_time = total_time - wash_time - rinse_time;
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"418
+[; ;main.c: 418:             TMR2ON = 1;
+[e ( _clear_screen ..  ]
+"419
+[; ;main.c: 419: 
+[e ( _clcd_print (2 , :s 36C -> + -> 128 `i -> 0 `i `uc ]
+"420
+[; ;main.c: 420:             RC2 = 1;
+[e ( _clcd_print (2 , :s 37C -> + -> 192 `i -> 0 `i `uc ]
+"421
+[; ;main.c: 421:           }
+[e ( _clcd_print (2 , :s 38C -> + -> 208 `i -> 0 `i `uc ]
+"424
+[; ;main.c: 424:     {
+[e = F1042 = F1041 + * -> _min `i -> 60 `i -> _sec `i ]
+"425
+[; ;main.c: 425:         TMR2ON = 0;
+[e = _wash_time -> * -> F1041 `d .0.4 `i ]
+"426
+[; ;main.c: 426:         RC2 = 0;
+[e = _rinse_time -> * -> F1041 `d .0.12 `i ]
+"427
+[; ;main.c: 427:         operation_mode = 0x05;
+[e = _spin_time - - F1041 _wash_time _rinse_time ]
+"430
+[; ;main.c: 430:     total_time = (min*60+sec);
+[e = _TMR2ON -> -> 1 `i `b ]
+"432
+[; ;main.c: 432:     {
+[e = _RC2 -> -> 1 `i `b ]
+"433
+[; ;main.c: 433:     if(total_time >= (time - wash_time))
+}
+[e :U 221 ]
+"435
+[; ;main.c: 435:         clcd_print("Wash",(0x80+11));
+[e $ ! == -> _key `i -> 31 `i 222  ]
+"436
+[; ;main.c: 436:     }
+{
+"437
+[; ;main.c: 437:     else if(total_time >= (time - wash_time - rinse_time))
+[e = _TMR2ON -> -> 0 `i `b ]
+"438
+[; ;main.c: 438:        {
+[e = _RC2 -> -> 0 `i `b ]
+"439
+[; ;main.c: 439:            clcd_print("Rinse",(0x80+11));
+[e = _operation_mode -> -> 5 `i `uc ]
+"440
+[; ;main.c: 440:        }
+}
+[e :U 222 ]
+"442
+[; ;main.c: 442:            clcd_print("Spin ",(0x80+11));
+[e = F1041 + * -> _min `i -> 60 `i -> _sec `i ]
+"443
+[; ;main.c: 443:     }
+[e $ ! <= -> _program_no `i -> 7 `i 223  ]
+"444
+[; ;main.c: 444:     else if(program_no == 8)
+{
+"445
+[; ;main.c: 445:     {
+[e $ ! >= F1041 - F1042 _wash_time 224  ]
+"446
+[; ;main.c: 446:         if(total_time >= (time - (0.40 * time)) )
+{
+"447
+[; ;main.c: 447:         {
+[e ( _clcd_print (2 , :s 39C -> + -> 128 `i -> 11 `i `uc ]
+"448
+[; ;main.c: 448:           clcd_print("Rinse",(0x80+11));
+}
+[e $U 225  ]
+"449
+[; ;main.c: 449:         }
+[e :U 224 ]
+[e $ ! >= F1041 - - F1042 _wash_time _rinse_time 226  ]
+"450
+[; ;main.c: 450:         else
+{
+"451
+[; ;main.c: 451:            clcd_print("Spin ",(0x80+11));
+[e ( _clcd_print (2 , :s 40C -> + -> 128 `i -> 11 `i `uc ]
+"452
+[; ;main.c: 452:     }
+}
+[e $U 227  ]
+"453
+[; ;main.c: 453:     else if(program_no == 9)
+[e :U 226 ]
+"454
+[; ;main.c: 454:     {
+[e ( _clcd_print (2 , :s 41C -> + -> 128 `i -> 11 `i `uc ]
+[e :U 227 ]
+[e :U 225 ]
+"455
+[; ;main.c: 455:         clcd_print("Rinse",(0x80+11));
+}
+[e $U 228  ]
+"456
+[; ;main.c: 456:     }
+[e :U 223 ]
+[e $ ! == -> _program_no `i -> 8 `i 229  ]
+"457
+[; ;main.c: 457:     else
+{
+"458
+[; ;main.c: 458:     {
+[e $ ! >= -> F1041 `d - -> F1042 `d * .0.40 -> F1042 `d 230  ]
+"459
+[; ;main.c: 459:         clcd_print("Wash",(0x80+11));
+{
+"460
+[; ;main.c: 460:     }
+[e ( _clcd_print (2 , :s 42C -> + -> 128 `i -> 11 `i `uc ]
+"461
+[; ;main.c: 461: 
+}
+[e $U 231  ]
+"462
+[; ;main.c: 462:     clcd_putch((min/10)+'0',(0xC0+6));
+[e :U 230 ]
+"463
+[; ;main.c: 463:     clcd_putch((min%10)+'0',(0xC0+7));
+[e ( _clcd_print (2 , :s 43C -> + -> 128 `i -> 11 `i `uc ]
+[e :U 231 ]
+"464
+[; ;main.c: 464:     clcd_putch(':',(0xC0+8));
+}
+[e $U 232  ]
+"465
+[; ;main.c: 465:     clcd_putch((sec/10)+'0',(0xC0+9));
+[e :U 229 ]
+[e $ ! == -> _program_no `i -> 9 `i 233  ]
+"466
+[; ;main.c: 466:     clcd_putch((sec%10)+'0',(0xC0+10));
+{
+"467
+[; ;main.c: 467: 
+[e ( _clcd_print (2 , :s 44C -> + -> 128 `i -> 11 `i `uc ]
+"468
+[; ;main.c: 468:     if(sec == 0 && min == 0)
+}
+[e $U 234  ]
+"469
+[; ;main.c: 469:     {
+[e :U 233 ]
+"470
+[; ;main.c: 470: 
+{
+"471
+[; ;main.c: 471:           TMR2ON = 0;
+[e ( _clcd_print (2 , :s 45C -> + -> 128 `i -> 11 `i `uc ]
+"472
+[; ;main.c: 472: 
+}
+[e :U 234 ]
+[e :U 232 ]
+[e :U 228 ]
+"474
+[; ;main.c: 474: 
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 6 `i `uc ]
+"475
+[; ;main.c: 475:           PORTCbits.RC2 = 1;
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 7 `i `uc ]
+"476
+[; ;main.c: 476: 
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"477
+[; ;main.c: 477:           clear_screen();
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"478
+[; ;main.c: 478:           clcd_print("Prog. Completed", (0x80+0));
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"480
+[; ;main.c: 480:           _delay((unsigned long)((2000)*(20000000/4000.0)));
+[e $ ! && == -> _sec `i -> 0 `i == -> _min `i -> 0 `i 235  ]
+"481
+[; ;main.c: 481:           PORTCbits.RC2 = 0;
+{
+"483
+[; ;main.c: 483:           reset_mode = 0x10;
+[e = _TMR2ON -> -> 0 `i `b ]
+"485
+[; ;main.c: 485: 
+[e = _RC2 -> -> 0 `i `b ]
+"487
+[; ;main.c: 487: 
+[e = . . _PORTCbits 0 2 -> -> 1 `i `uc ]
+"489
+[e ( _clear_screen ..  ]
+"490
+[e ( _clcd_print (2 , :s 46C -> + -> 128 `i -> 0 `i `uc ]
+"491
+[e ( _clcd_print (2 , :s 47C -> + -> 192 `i -> 0 `i `uc ]
+"492
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"493
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"494
+[e = _operation_mode -> -> 1 `i `uc ]
+"495
+[e = _reset_mode -> -> 16 `i `uc ]
+"496
+[e ( _clear_screen ..  ]
+"498
+}
+[e :U 235 ]
+"500
+[e :UE 220 ]
+}
+[a 2C 72 101 97 118 121 0 ]
+[a 9C 82 105 110 115 101 43 68 114 121 0 ]
+[a 10C 68 114 121 32 111 110 108 121 0 ]
+[a 11C 87 97 115 104 32 79 110 108 121 0 ]
+[a 1C 68 97 105 108 121 0 ]
+[a 17C 77 97 120 0 ]
+[a 14C 76 111 119 0 ]
+[a 8C 66 101 100 83 104 101 101 116 115 0 ]
+[a 6C 69 99 111 67 111 116 116 111 110 115 0 ]
+[a 7C 87 111 111 108 108 101 110 115 0 ]
+[a 47C 82 101 109 111 118 101 32 67 108 111 116 104 115 0 ]
+[a 4C 87 104 105 116 101 115 0 ]
+[a 3C 68 101 108 105 99 97 116 101 115 0 ]
+[a 13C 65 117 116 111 0 ]
+[a 15C 77 101 100 105 117 109 0 ]
+[a 26C 87 97 115 104 105 110 103 32 80 114 111 103 114 97 109 0 ]
+[a 27C 87 97 116 101 114 32 76 101 118 101 108 0 ]
+[a 5C 83 116 97 105 110 32 87 97 115 104 0 ]
+[a 39C 87 97 115 104 0 ]
+[a 45C 87 97 115 104 0 ]
+[a 16C 72 105 103 104 0 ]
+[a 21C 80 114 101 115 115 32 83 119 105 116 99 104 0 ]
+[a 29C 80 108 101 97 115 101 32 67 108 111 115 101 0 ]
+[a 40C 82 105 110 115 101 0 ]
+[a 42C 82 105 110 115 101 0 ]
+[a 44C 82 105 110 115 101 0 ]
+[a 12C 65 113 117 97 32 115 116 111 114 101 0 ]
+[a 20C 32 87 97 115 104 105 110 103 32 77 97 99 104 105 110 101 0 ]
+[a 46C 80 114 111 103 46 32 67 111 109 112 108 101 116 101 100 0 ]
+[a 28C 68 79 79 82 32 58 32 79 80 69 78 0 ]
+[a 32C 53 45 83 84 65 82 84 32 32 54 45 80 65 85 83 69 0 ]
+[a 38C 53 45 83 84 65 82 84 32 32 54 45 80 65 85 83 69 0 ]
+[a 31C 84 73 77 69 0 ]
+[a 37C 84 73 77 69 0 ]
+[a 34C 84 105 109 101 58 0 ]
+[a 30C 70 117 110 99 116 105 111 110 32 45 0 ]
+[a 36C 70 117 110 99 116 105 111 110 32 45 0 ]
+[a 35C 40 77 77 58 83 83 41 0 ]
+[a 41C 83 112 105 110 32 0 ]
+[a 43C 83 112 105 110 32 0 ]
+[a 25C 32 87 97 115 104 105 110 103 32 77 97 99 104 105 110 101 32 0 ]
+[a 22C 32 83 87 53 58 32 83 84 65 82 84 32 0 ]
+[a 23C 32 83 87 54 58 32 83 84 79 80 32 0 ]
+[a 33C 80 114 111 103 58 32 0 ]
+[a 18C 32 80 114 101 115 115 32 83 87 53 32 84 111 32 32 0 ]
+[a 24C 32 32 80 111 119 101 114 105 110 103 32 79 78 32 32 32 0 ]
+[a 19C 32 32 32 32 80 111 119 101 114 32 79 78 32 32 32 32 0 ]
